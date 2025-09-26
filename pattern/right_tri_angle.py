@@ -7,9 +7,9 @@ Input:
 Output:
 *
 **
-*
-**
 ***
+****
+*****
 '''
 
 def rightTriangle(n):
