@@ -20,3 +20,17 @@ def is_prime(n):
 
 n = int(input())
 print(is_prime(n))
+
+
+
+def checkprime(x):
+    if x<=1:
+        return False
+    for i in range(2,int(x**0.5)+1):
+        if x%i==0:
+            return False
+    
+    return True
+    
+x=int(input())
+print(checkprime(x))
